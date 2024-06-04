@@ -10,12 +10,14 @@ function App() {
   //   alert(x);
   // };
 
-  let demo = false;
+  // let demo = false;
   // if (demo) {
   //   return <Parent />;
   // } else {
   //   return <Child />;
   // }
+
+  let bool = true;
 
   return (
     <div className="App">
@@ -23,7 +25,7 @@ function App() {
       {/* <Parent /> */}
       {/* <button onClick={ handleSubmit("hello this is sooraj") }>Submit</button> */}
 
-      {demo ? <Parent /> : <Child />}
+      {bool ? <Parent /> : <Child />}
     </div>
   );
 }
