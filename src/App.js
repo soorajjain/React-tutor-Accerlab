@@ -18,8 +18,7 @@ function App() {
   // }
 
   // let bool = true;
-
-  let x= 10;
+  // let x= 10;
 
   return (
     <div className="App">
@@ -29,7 +28,7 @@ function App() {
 
       {/* {bool ? <Parent /> : <Child />} */}
 
-      <h1>{x>=10 ? "true" : "flase" }</h1>
+      {/* <h1>{x>=10 ? "true" : "flase" }</h1> */}
 
       {}
     </div>
