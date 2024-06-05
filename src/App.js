@@ -17,7 +17,9 @@ function App() {
   //   return <Child />;
   // }
 
-  let bool = true;
+  // let bool = true;
+
+  let x= 10;
 
   return (
     <div className="App">
@@ -25,7 +27,11 @@ function App() {
       {/* <Parent /> */}
       {/* <button onClick={ handleSubmit("hello this is sooraj") }>Submit</button> */}
 
-      {bool ? <Parent /> : <Child />}
+      {/* {bool ? <Parent /> : <Child />} */}
+
+      <h1>{x>=10 ? "true" : "flase" }</h1>
+
+      {}
     </div>
   );
 }
